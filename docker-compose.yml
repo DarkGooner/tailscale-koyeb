@@ -1,7 +1,7 @@
 version: '3.8'
 services:
   tailscale:
-    image: tailscale/tailscale:latest
+    image: tailscale/tailscale:stable
     container_name: tailscaled
     network_mode: host
     privileged: true
